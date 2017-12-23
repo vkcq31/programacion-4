@@ -1,0 +1,68 @@
+CONFERENCIA SOFTWARE FREEDOM DAY
+
+LOS PUNTOS QUE SE LLEGARON A TRATAR:
+1. Big data
+2. Ingenieria social SET
+3. Fintech/Blockchain
+4. Mozilla, firefox 
+5. What is a Data Scientis? Reasons why Fedora is the best OS for Big Data
+6. Mesa redonda  junto a sus patrocinados donde hablaron sobre la importancia de saber inglés. Mujeres developers! Hay futuro en Panamá para los Developers? Donde se llegó a concluir de que si hay mucho futuro y cosas por realizar... 
+7. Almuerzo 
+8. Docker y su aplicación en la historia (ALBERTO CASTILLO UTP) Como cambia el modelo a utilizar docker, bloque principal, ejemplo de migración metlife… Aplicación legada en realidad: donde es la fecha en que fue escrito el código no es el único indicador. Existen factores que permiten identificar aplicaciones en casos obsoletas… 
+Capacidad de orquestación y docker compose: 
+•	sin compose carga y ejecuta en un solo contenedor a la vez. 
+•	con compose se definen varios contenedores en un solo archivo compose.yml
+stacks: pila colección 
+Uso en la mediana y pequeña empresa: entorno de prueba integrales, adaptabilidad a cualquier escala, se implementan en el archivo de docker compose, disminuyen los costos.
+Sudo docker-compose up –d (comando) dos instancias y dos contenedores en una 
+Diferencia entre un Máquina virtual instalación adicional de un SO para utilizar los recursos disponibles y contenedor solo reposa los datos y archivos.
+9. Internet of things: protocols, evolution and why you should care about. (KIARA NAVARRO)
+adsadasdasd
+10. Hablemos de computación cuántica (CARLOS FERNÁNDEZ) ORIGEN DE LA FISICA: clásica (ley newton), astrofísica, mecánica cuántica, teoría de la relatividad. Computador clásico: diferencias clásico tiene un bit unidad de medida que guarda información, cuántico en cubits variaciones entre 1 y 0. Compuertas cuánticas: la historia es paralela a la historia de las computadoras actual. 
+Reseña histórica de la computación cuántica. Generaciones del computador: experimento de la doble ranura, superposición cuántica. Perturbación teórica de los mundos paralelos. Experiencia con los dados. (El azar no existe. Dios no juega a los dados)
+Problemas: un microprocesador realizaba una y luego las demás ósea una a la vez lo que retrasa el proceso, mientras que la computadora cuántica la realiza a la vez.
+Posibles tipos de computadores_ sistemas basados en fotones simples, átomos ultra fríos. Circuitos superconductores(los buses de datos) para que la información se intercambie entre ellos.
+Estados cuánticos del grafeno. Átomos artificiales tienen la ventaja de que pueden ofrecer más propiedades que los convencionales.
+Estados cuánticos del grafeno: Átomos artificiales tienen la ventaja de que pueden ofrecer mas propiedades que los convencionales. El grafeno tiene escabilidad. D-Wave la primera computadora cuántica 
+11. Diseño gráfico open-source (JULIAN VEGA)
+PARC sistema(metodología )
+•	Proximidad: tratar de organizar los objetos
+•	Alineamiento: todo uniforme, en una sola línea, indica la distancia.
+•	Repetición: 
+•	Contraste: con la parte de los logos tengan una concordancia.
+Gimp: manipulador. Licencia es GPLG y LGPL. Funciona en multiples SO. Formato de imágenes (png,bmp, jpg)
+INSCAPE: Graficos vectoriales, licencia GNU, open source
+BLENDER: manipulador de imagen 3D. editar videos y audio, 
+SCRIBUS: 
+KRITA: hacer manga, funciona para dibujar, programa para dibujo gráfico, se integra con las tarjetas digitalizadoras. 
+12. Creative commons(licenciamiento) IPANDETEC. Ofrece seis licencias, se pueden acomodar a nuestras realidades. Gozan de un documento legal, versión legible, código digital, licencia CC.  Permite posibilidad de hacer uso de la obra. Es una liberación de reservas.
+13. Tokers de Etherum y Smart Contracts criptomonedas) ADRIAN SCOTT
+Decent.bet 
+jobs@decent.bet RECLUTANDO
+Todo es cadena de bloques o no?
+Plataformas descentralizadas activadas por criptografía (DCEP).
+Cadena de bloques/blockchain.
+Árbol aciclical dirigido (DAG).
+Herramientas para combinar de criptografía (hash, firmas, encifrar, prueba de trabajo, prueba de participación), P2P/peer-to-peer; par a par.
+Contrato inteligente: aplicación descentralizadas que se ejecutan exactamente como programado sin posibilidad de tiempo de inactividad, censura, fraude o interferencia de terceros.
+Ethereum: 
+•	plataforma descentralizada que ejecuta contratos inteligentes.
+•	Protocolo
+•	VM –Virtual Machine
+•	Instancia de una cadena de bloqueo del protocolo
+“Cartera” cripto – wallet:
+•	Básicamente es una clave privada
+•	Tipos de carteras: 
+•	Hot wallet/cartera caliente
+•	Cold storage/ almacenamiento frio
+•	Retos: escalabilidad, prueba del wallet de ethereum, tendencias de ethereum, planes de escabilidad (metrópolis, raiden).
+Programar Smart contrats: 
+Fresherblock.com
+Ethereum.org
+Github.com/vincentch/eth-private-net
+
+Aplicaciones distribuidas: dApps
+Truffle(react)
+Testrpc
+Web3
+Metamask
