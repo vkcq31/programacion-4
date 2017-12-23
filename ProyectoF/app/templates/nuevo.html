@@ -1,0 +1,40 @@
+
+<html>
+<head>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body background="../static/restaurante_.jpg"style=" background-size: 100%; background-position: center; min-height: 100%; ">
+<center>
+<h3><font color="white">Reservación </font></h3>
+    </center>
+<hr/>
+{%- for categoria, mensaje in get_flashed_messages(with_categories=true)  %}
+<div class="alert alert-danger">
+    {{ mensaje }}
+</div>
+{%- endfor %}
+
+<form action="{{ request.path }}" method="post">
+    <center>
+
+    <font color="white"><label>Nombre</label></font>
+    <input type="text" name="nombre" placeholder="nombre"><br>
+    <font color="white"><label>Telefono</label></font>
+    <input type="text" name="telefono" placeholder="telefono"><br>
+    <font color="white"><label>Email</label></font>
+    <input type="text" name="email" placeholder="email"><br>
+      <font color="white"><label>Numero de mesa(1-20)</label></font>
+
+    <input type="text" name="mesa" placeholder="mesa"><br>
+
+
+    <input type="submit" value="Enviar">
+
+    </center>
+</form>
+</body>
+</html>
